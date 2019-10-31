@@ -1,0 +1,41 @@
+/*
+.box{
+    height: 100px;
+    width: 100px;
+    background: red;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.change {
+    animation: animate 1s infinite;
+}
+
+@keyframes animate {
+    50% {
+        transform: rotate(45deg);
+        background: blue;
+    }
+}*/
+
+
+
+
+#hero {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+#hero.enable {
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    50% {
+        opacity: 0;
+    }
+}
+
+
